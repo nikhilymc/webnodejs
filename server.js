@@ -27,6 +27,16 @@ app.post('/login',(req,res)=>{
     }
 
 });
+app.post('/register',(req,res)=>{
+    
+    var name=req.body.name;
+    var admno= req.body.admno;
+    var college= req.body.college;
+    
+        res.send(name,admno);
+    
+
+});
 app.get('/',(req,res)=>{
     res.render("index",{name:'nikhil'});
 });
