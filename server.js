@@ -33,7 +33,7 @@ app.post('/register',(req,res)=>{
     var admno= req.body.admno;
     var college= req.body.college;
     
-        res.send("name,admno");
+        res.send(name,admno);
     
 
 });
