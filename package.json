@@ -1,0 +1,16 @@
+{
+  "name": "node",
+  "version": "0.0.0",
+  "description": "my first node js program",
+  "main": "ab.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "lodash": "~4.17.11",
+    "express": "~4.16.4",
+    "express-handlebars": "~3.0.2"
+  }
+}
